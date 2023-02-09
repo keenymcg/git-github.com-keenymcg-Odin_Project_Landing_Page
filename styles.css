@@ -1,3 +1,7 @@
+html {
+    background-color: rgb(65, 84, 136);
+}
+
 .navBar {
     background-color: rgb(65, 84, 136);
     color: white;
@@ -24,16 +28,30 @@
     background-color: rgb(217, 140, 140);
     justify-content: space-between;
     margin: 10px;
+    border-radius: 10px;
 }
 
 .bannerLeft {
-    align-self: center;;
+    align-self: center;
+    padding: 40px;
+}
+
+button {
+    color: white;
+    background-color: blue;
+    font-family: cursive;
+    border-radius: 500px;
 }
 
 .chef {
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
     overflow: hidden;
+    margin: 50px;
+    object-fit: scale-down;
+    flex: 1 0 auto;
+    border-radius: 20px;
+    margin-right: 100px;
 }
 
 span {
@@ -52,3 +70,46 @@ h3 {
     font-weight: 500;
     opacity: 70%;
 }
+
+.randomInfo {
+    color: beige;
+    padding: 5px;
+    border: dashed;
+    border-color: beige;
+    margin: 10px;
+
+}
+
+.randomInfo img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.recipesBox {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.recipes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 170px;
+    width: 170px;
+    gap: 20px;
+    border: dashed;
+}
+
+h4 {
+    text-align: center;
+    font-style: italic;
+    font-family:Arial, Helvetica, sans-serif
+    
+}
+
